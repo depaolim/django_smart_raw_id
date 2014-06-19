@@ -1,0 +1,3 @@
+{% for object in objects %}
+    <a href="{{ object.1 }}" onclick="return showAdminPopup(this.href);">{{ object.0 }}</a>{% if not forloop.last %}, {% endif %}{% endfor %}
+
