@@ -41,7 +41,7 @@ To deploy remember to do:
 
 To run tests you need selenium as stated by requirements\_dev.txt
 
-    pip install -r requirements.txt
+    pip install -r requirements_dev.txt
     cd django_smart_raw_id
     python manage.py test
 
