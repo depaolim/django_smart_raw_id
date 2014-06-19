@@ -1,12 +1,10 @@
-# Usage
+# README
 
 ## Setup
 
 Download the repo:
 
     git clone https://github.com/depaolim/django_smart_raw_id.git
-
-It will be created a folder named django\_smart\_raw\_id
 
 Add this folder to your pythonpath
 
@@ -39,7 +37,7 @@ To deploy remember to do:
     python manage.py collectstatic
 
 
-# Setup and Test
+## Test
 
 To run tests you need selenium as stated by requirements\_dev.txt
 
@@ -47,8 +45,6 @@ To run tests you need selenium as stated by requirements\_dev.txt
     cd django_smart_raw_id
     python manage.py test
 
-
-### Warnings:
 
 LiveServerTestCase and selenium could have timeout problems.
 In such case you must restart the test
