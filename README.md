@@ -24,13 +24,11 @@ In your project do the following steps:
 
 The following is an an example of usage in your admin.py
 
-    from smart_raw_id_bl import SmartRawIdMixin
+    from smart_raw_id import SmartRawIdMixin
    
     class SingleSaleAdmin(SmartRawIdMixin, ModelAdmin):
         list_display = ('id', 'product', 'price')
         raw_id_fields = ('product', )
-
-... thats all folks
 
 ## Deploy
 
