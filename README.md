@@ -1,5 +1,7 @@
 # README
 
+Based on first idea and implementation from [Marco Beri](https://github.com/taifu) and [Stefano Brentegani](https://github.com/brente) here packaged as a django app with some test cases added
+
 ## Setup
 
 Download the repo:
